@@ -35,7 +35,8 @@
 
                 <div class="modal-footer">
                     <g:submitButton type="submit" class="btn btn-default" name="Login" />
-                    <a href="https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost:8080%2Flogin%2FgoogleAuth&response_type=code&client_id=697244225685-p96bulii3ubavebeuivihpdvibrc1o2a.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=force&access_type=offline"> SignInWithGoogle </a>
+
+                    <a href="https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost:8080%2Flogin%2FgoogleAuth&response_type=code&client_id=697244225685-p96bulii3ubavebeuivihpdvibrc1o2a.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&approval_prompt=force&access_type=offline"> SignInWithGoogle </a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                 </div>
             </g:form>
